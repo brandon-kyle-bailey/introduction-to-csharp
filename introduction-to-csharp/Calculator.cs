@@ -16,7 +16,7 @@ namespace introduction_to_csharp.calculator
 
             double output = numberOne + numberTwo;
 
-            Console.WriteLine("Output of addition of " + numberOne + " & " + numberTwo + " is: " + output);
+            Console.WriteLine("Ouput of addition of {0} & {1} is: {2}", numberOne, numberTwo, output);
         }
     }
 }
