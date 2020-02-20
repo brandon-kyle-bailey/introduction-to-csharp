@@ -6,7 +6,17 @@ namespace introduction_to_csharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to my C# Calculator.");
+
+            Console.Write("First number: ");
+            double numberOne = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Second number: ");
+            double numberTwo = Convert.ToDouble(Console.ReadLine());
+
+            double output = numberOne + numberTwo;
+
+            Console.WriteLine("Output of addition of " + numberOne + " & " + numberTwo + " is: " + output);
         }
     }
 }
