@@ -2,7 +2,7 @@
 
 namespace introduction_to_csharp
 {
-    class Program
+    class Calculator
     {
         static void Main(string[] args)
         {
