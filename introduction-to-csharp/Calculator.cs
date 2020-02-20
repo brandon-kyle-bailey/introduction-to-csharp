@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace introduction_to_csharp
+namespace introduction_to_csharp.calculator
 {
     class Calculator
     {
-        static void Main(string[] args)
+        public static void Run(string[] args)
         {
             Console.WriteLine("Welcome to my C# Calculator.");
 
