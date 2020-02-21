@@ -9,9 +9,9 @@ namespace introduction_to_csharp
     {
         static void Main(string[] args)
         {
-            //calculator.Calculator.Run(args);
+            calculator.Calculator.Run(args);
             //madlibs.MadLibs.Run(args);
-            arrays.Arrays.Run(args);
+            //arrays.Arrays.Run(args);
         }
     }
 }
