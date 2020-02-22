@@ -3,6 +3,7 @@ using introduction_to_csharp.calculator;
 using introduction_to_csharp.madlibs;
 using introduction_to_csharp.arrays;
 using introduction_to_csharp.guessing;
+using introduction_to_csharp.advanced;
 
 namespace introduction_to_csharp
 {
@@ -13,7 +14,8 @@ namespace introduction_to_csharp
             // calculator.Calculator.Run(args);
             // madlibs.MadLibs.Run(args);
             // arrays.Arrays.Run(args);
-            GuessingGame.Run(args);
+            // guessing.GuessingGame.Run(args);
+            advanced.AdvancedTechniques.Run(args);
         }
     }
 }
