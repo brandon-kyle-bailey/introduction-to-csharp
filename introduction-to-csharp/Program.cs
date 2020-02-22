@@ -13,7 +13,7 @@ namespace introduction_to_csharp
             // calculator.Calculator.Run(args);
             // madlibs.MadLibs.Run(args);
             // arrays.Arrays.Run(args);
-            guessing.GuessingGame.Run(args);
+            GuessingGame.Run(args);
         }
     }
 }
