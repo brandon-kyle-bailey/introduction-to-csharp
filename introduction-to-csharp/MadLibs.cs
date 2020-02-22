@@ -22,7 +22,8 @@ namespace introduction_to_csharp.madlibs
             Console.WriteLine("{0} are blue", pluralNoun);
             Console.WriteLine("I love {0}", celebrity);
 
-
+            Console.WriteLine("Press the Enter key to exit.");
+            Console.ReadLine();
         }
     }
 }
